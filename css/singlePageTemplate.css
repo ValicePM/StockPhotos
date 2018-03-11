@@ -80,8 +80,11 @@ ul li:hover a {
 	padding-bottom: 150px;
 	background-image: url(../img/slider1.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
 	margin-top: -59px;
+	max-height: 485px;
+	height: auto;
+	width: auto;
+	background-position: 41% 0%;
 }
 .light {
 	font-weight: bold;
@@ -96,16 +99,30 @@ ul li:hover a {
 	letter-spacing: 1px;
 }
 /* About Section */
-.text_column {
-	width: 29%;
+
+.text_column {  
+    -webkit-column-count:2;  
+    -moz-column-count:2;  
+    column-count:6; 
+	column-width: 170px; 
+	column-height: 140px;
 	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
 	float: left;
-	padding-left: 20px;
+	padding-left: 16px;
 	padding-right: 20px;
 	color: #A3A3A3;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 11px;
 }
+.text_column a{
+	color: #A3A3A3;
+	list-style: none;
+	width: inherit;
+}
+ul {list-style-type: none !important;}
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -231,7 +248,6 @@ footer .footer_column p {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
@@ -482,4 +498,9 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+
+button .user {
+	color: #FFFFFF;
+	background-color: #8FCDDC;
 }
