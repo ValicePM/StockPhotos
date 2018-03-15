@@ -653,6 +653,7 @@ article {
 	float: left;
 	position: relative;
 	margin-top: -60px;
+	max-height: 400px;
 }
 article img {
 	width: 100%;
@@ -660,15 +661,14 @@ article img {
 
 /*---- SET UP CONTROL ----*/
 .slider-prev-next-control {
-  height: 50px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .slider-prev-next-control label {
   display: none;
