@@ -20,27 +20,83 @@
 <!-- Main Container -->
 <div class="container"> 
   <!-- Navigation -->
-   <header> <a href="">
-    <img class="logo" alt="" width="183" height="28" src="img/logo.png" />
-    </a>
-    <nav>
-      <ul>
-        <li><a href="#hero">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
+   
+  <!-- Hero Section -->	<div class="wrapper">
+  
 	  <div class="search-block">
 	    <h2 class="hero_header">Photos, illustrations by creatives all over the world.</h2>
 		  <form>
                 <span><input type="text" class="search rounded" placeholder="People walking"></span>
           </form>
 	  </div>
-  </section>
+  <div class="header">
+	<img class="logo" alt="" width="183" height="28" src="img/logo.png" />
+    <nav> 
+	  <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
 	<!---->
+	
+  <input class="none" checked type=radio name="slider" id="slide1" />
+  <input class="none" type=radio name="slider" id="slide2" />
+  <input class="none" type=radio name="slider" id="slide3" />
+  <input class="none" type=radio name="slider" id="slide4" />
+  <input class="none" type=radio name="slider" id="slide5" />
+
+  <div class="slider-wrapper">
+	  
+    <div class=inner>
+      <article>
+        <div class="info top-left">
+          <h3></h3></div>
+        <img src="./img/img-1.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-right">
+          <h3></h3></div>
+        <img src="./img/img-2.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-left">
+          <h3></h3></div>
+        <img src="./img/img-3.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right">
+          <h3></h3></div>
+        <img src="./img/img-4.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-left">
+          <h3></h3></div>
+        <img src="./img/slider1.jpg" />
+      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  
+  <!-- .slider-dot-control -->
+</div>
+	
 	
 	
 	
